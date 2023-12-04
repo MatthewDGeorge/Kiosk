@@ -1,0 +1,8 @@
+Azure cognitive resources-specific problems
+
+1) I had many problems with delays when trying to load the Custom Vision Portal. I believe this was due to me using multiple Azure sign-ins provided by Udacity.
+The solution was to open Custom Vision Portal in a private browser, which prevented cookies choosing old sign-in credentials automatically.
+
+2) I could never create a storage account using the 8 hour sign-in, and had 'validation' failed errors. Instead I had to rely on 4 hour sign-ins and this project has been extremely difficult to complete under these conditions. In addition it was tricky to configure storage account CORS until I found forums explaining to use * in the permission fields. I think this should be updated in the course notes.
+
+
